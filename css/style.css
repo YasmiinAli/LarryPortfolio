@@ -1,0 +1,142 @@
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #888; 
+}
+::-webkit-scrollbar-thumb {
+  background: #cc4277; 
+}
+::selection {
+    color: white;
+    background-color: #cc4277;
+}
+nav {
+    background-color: #282828;
+    position: fixed !important;
+    width: 100%;
+    z-index: 5000;
+}
+.nav-link {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.nav-link:hover, .active {
+    color: #cc4277 !important;
+}
+
+.item i {
+    font-size: 50px;
+    color: #cc4277;
+}
+
+header {
+    background-image: url(../images/masthead.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.layer {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+.btn a {
+background-color: #cc4277;
+padding: 20px 50px;
+letter-spacing: 2px;
+}
+.btn  :hover {
+    background-color: transparent;
+    border: 1px solid white;
+    transition: all 2s;
+}
+header h2 {
+    font-size: 80px;
+    font-weight: 700;
+}
+header h5 {
+    font-size: 25px;
+}
+/* about  */
+ .progress-bar{
+    background-color: #cc4277;
+}
+/* works */ 
+.works{
+background-color:  #f7f7f7;
+height: 250vh;
+}
+.works ul li {
+    margin-right: 30px;
+    color: gray;
+    letter-spacing: 1px;
+}
+.works img {
+    width: 100%;
+    cursor: pointer;
+}
+.brand {
+    background-color: #cc4277;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    top: 0;
+}
+.item {
+    /* overflow: hidden; */
+}
+.works img:hover .brand {
+    top: 50%;
+}
+.brand h3 {
+    letter-spacing: 2px;
+}
+/* logos */
+.logos {
+    background-color: #f7f7f7;
+    height: 25vh;
+}
+/* keep in touch */
+.getintouch .btn {
+    background-color: #cc4277;
+    border: 2px solid #cc4277;
+    padding: 15px 20px;
+    border-radius: 0;
+    color: #fff;
+    text-transform: uppercase;
+    align-self: right;
+}
+.getintouch .btn:hover {
+    background-color: white;
+    color: #cc4277;
+}
+/* footer */
+footer {
+  border-top: 1px solid rgb(156, 153, 153);
+  padding: 20px;
+  background-color: #282828;
+  color: white;
+}
+.copyright p{
+    font-size: 14px;
+}
+.copyright img {
+    width: auto;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:360px) and (max-width:520px) {
+    .works {
+        height: 320vh;
+    }
+    .hideen {
+        display: none;
+    }
+}
